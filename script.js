@@ -162,36 +162,3 @@ function calcular()
 {
     resistencia.value=`${(a*10+b)*c}Ω+/-${d}`;
 }
-
-// let colSelect1=document.getElementById("color-selecionado1");
-// let colSelect2=document.getElementById("color-selecionado2");
-// let colSelect3=document.getElementById("color-selecionado3");
-// let colSelect4=document.getElementById("color-selecionado4");
-
-// colSelect1.addEventListener("change", cambiarClase(colSelect1));
-// colSelect2.addEventListener("change", cambiarClase(colSelect2));
-// colSelect3.addEventListener("change", cambiarClase(colSelect3));
-// colSelect4.addEventListener("change", cambiarClase(colSelect4));
-
-// function cambiarClase(selecion)
-// {
-//     let claseAntigua=selecion.classList.item(0);
-//     selecion.classList.remove(claseAntigua);
-//     selecion.classList.add("color-"+ selecion.value);
-// }
-
-
-// var muestrario;
-// var colorPredeterminado = "#ffffff";
-
-// window.addEventListener("load", startup, false);
-
-// function startup() {
-//     muestrario = document.querySelector("#muestrario");
-//     muestrario.value = colorPredeterminado;
-//     muestrario.addEventListener("input", actualizarPrimero, false);
-//   }
-
-//   function actualizarPrimero(event) {
-//         txtResult.style.backgroundColor = event.target.value;
-//   }
